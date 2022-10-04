@@ -17,7 +17,7 @@ async def home(client, message):
 	user_id = message.from_user.id
 	user_name = message.chat.username
 	msg_id = message.id
-	if user_id in [ 1630373589]:
+	if user_id in [ 952205090]:
 		if '/start' in text:
 			await app.delete_messages(user_id,msg_id)
 			if not exists(str(user_id)):
